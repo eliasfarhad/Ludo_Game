@@ -1,9 +1,14 @@
-var player1 = "Farhad";
-var player2 = "Jen";
+var player1 = "Player1";
+var player2 = "Player2";
 
 function setName() {
-//    player1 = prompt("Please enter the name of Player 1");
-//    player2 = prompt("Please enter the name of Player 2");
+    player1 = prompt("Please enter the name of Player 1");
+    player2 = prompt("Please enter the name of Player 2");
+    
+    if (player1 == "" || player1 == null)
+        player1 = "Player1";
+    if (player2 == "" || player2 == null)
+        player2 = "Player2";
     
     document.getElementById('player1').innerHTML = player1;
     document.getElementById('player2').innerHTML = player2;
