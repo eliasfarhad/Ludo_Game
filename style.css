@@ -6,14 +6,6 @@ body {
     background-size: cover;
 }
 
-
-.chessboard, .black_square, .white_square {
-    float: left;
-	display:block;
-	padding:0px;
-	margin:0px;
-}
-
 .chessboard {
     background: url("images/image2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
